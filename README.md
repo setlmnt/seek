@@ -7,7 +7,30 @@
   <br>
 </h1>
 
-<h4 align="center">O Seek é um projeto de web scraping sendo desenvolvido para fornecer informações imobiliárias úteis</h4>
+<h3 align="center">O Seek é um projeto de web scraping sendo desenvolvido para fornecer informações imobiliárias úteis</h3>
+
+<p align="center">
+    <a href="https://github.com/progammation/seek/actions">
+      <img alt="Tests Passing" src="https://github.com/anuraghazra/github-readme-stats/workflows/Test/badge.svg" />
+    </a>
+    <a href="https://github.com/progammation/seek/graphs/contributors">
+      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/progammation/seek" />
+    </a>
+    <a href="https://github.com/progammation/seek/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/progammation/seek?color=0088ff" />
+    </a>
+    <a href="https://github.com/progammation/seek/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/progammation/seek?color=0088ff" />
+    </a>
+    <br />
+    <br />
+    <a href="https://a.paddle.com/v2/click/16413/119403?link=1227">
+      <img src="https://img.shields.io/badge/Supported%20by-VSCode%20Power%20User%20%E2%86%92-gray.svg?colorA=655BE1&colorB=4F44D6&style=for-the-badge"/>
+    </a>
+    <a href="https://a.paddle.com/v2/click/16413/119403?link=2345">
+      <img src="https://img.shields.io/badge/Supported%20by-Node%20Cli.com%20%E2%86%92-gray.svg?colorA=61c265&colorB=4CAF50&style=for-the-badge"/>
+    </a>
+  </p>
 
 <p align="center">
   <a href="#desafios">Desafios</a> •
