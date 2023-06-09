@@ -3,8 +3,8 @@ import json
 
 class Spider(scrapy.Spider):
     name = "zap_imoveis"
-    uf = "sp"
-    cidade = "sao-paulo"
+    uf = "ba"
+    cidade = "vitoria-da-conquista"
     tipo = "aluguel"
     start_urls = [f'http://www.zapimoveis.com.br/{tipo}/imoveis/{uf}+{cidade}/']
     custom_settings = {
@@ -32,9 +32,3 @@ class Spider(scrapy.Spider):
 
         with open(f'imoveis_{self.cidade}-{self.uf}.json', 'w', encoding='utf-8') as file:
             json.dump(imoveis, file, ensure_ascii=False, indent=4)
-
-        # Extract the URL of the next page
-        next_button = response.xpath('//button[@aria-label="Próxima página"]/@data-testid')
-        if next_button:
-            next_page_url = f'http://www.zapimoveis.com.br/{tipo}/imoveis/{uf}+{cidade}/{next_button.extract_first()}'
-            yield response.follow(next_page_url, self.parse)
